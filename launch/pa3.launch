@@ -1,0 +1,9 @@
+<launch>
+
+<!--  <node type="stageros" name="stage_sim" pkg="stage_ros" args="-d $(find ros_pa3)/world/playground.world" />-->
+
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ros_pa3)/include/config/config.rviz" />
+<!--  <node type="mark.py" name="mark" pkg="ros_pa3"/>-->
+  <node type="pa_3.py" name="pa_3" pkg="ros_pa3"/>
+
+</launch>

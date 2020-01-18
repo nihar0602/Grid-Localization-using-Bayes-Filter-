@@ -1,0 +1,3 @@
+<launch>
+  <node type="stageros" name="stage_sim" pkg="stage_ros" args="-d $(find ros_pa2)/playground.world" />
+</launch>
